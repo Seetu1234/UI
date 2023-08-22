@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shine Clinic</title>
+    <link rel="stylesheet" href="./hii.css" />
+  </head>
+  <body>
+    <img src="clinic.png" alt="clonic" width="300px" height="700px">
+    <form  class="he"action="">
+        <h1>Shine Clinic</h1>
+      <table>
+        <tbody>
+          <!--fisrt row-->
+          <tr>
+            <td class="mes"><a href="#admission">Admission-info :</a></td>
+            <td class="mes"><a href="#add">Personal-info :</a></td>
+            <td class="mes"><a href="#adds">Payment-info :</a></td>
+          </tr>
+          <!--second-->
+          <tr>
+            <td class="info" colspan="3"id="admission">Admission Information</td>
+          </tr>
+          <!--third-->
+          <tr>
+            <td>
+              <label for="se">Date Of Admission : </label>
+              <br />
+              <input class="gd"type="date" id="se" />
+            </td>
+            <td>
+              <label for="de">Select the admission type :</label>
+              <br />
+              <select name="" id="de" class="me">
+                <option value="Select">Select..</option>
+                <option value="New Admission">New Admission</option>
+                <option value="Already Have">Already Have</option>
+              </select>
+            </td>
+            <td>
+              <label for="sd">Admission For</label>
+              <br />
+              <select name="sd" id="">
+                <option value="Select">Select..</option>
+                <option value="Nose">Nose</option>
+                <option value="Ear">Ear</option>
+                <option value="Thorat">Thorat</option>
+                <option value="General CheckUp">General CheckUp</option>
+              </select>
+            </td>
+          </tr>
+          <!--fourth-->
+          <tr>
+            <td colspan="3">**select if you have any of the following below</td>
+          </tr>
+          <!--fifth-->
+          <tr>
+            <td>
+              <input type="checkbox" id="account" />
+              <label for="account">Cold</label>
+            </td>
+            <td>
+                <input type="checkbox" id="accoun" />
+                <label for="accoun">Fever</label>
+              </td>
+            </td>
+            <td>
+                <input type="checkbox" id="accou" />
+                <label for="accou">Cough</label>
+              </td>
+            </td>
+          </tr>
+          <!--six-->
+          <tr>
+            <td>
+                <input type="checkbox" id="acc" />
+                <label for="acc">Diapedesis</label>
+              </td>
+            </td>
+            <td>
+                <input type="checkbox" id="at" />
+                <label for="at">Bloodpressure</label>
+              </td>
+            </td>
+            <td>
+                <input type="checkbox" id="ant" />
+                <label for="ant">Heavysurgery</label>
+              </td>
+            </td>
+          </tr>
+          <!--seven-->
+          <tr>
+            <td class="info" colspan="3" id="add">Personal Information</td>
+          </tr>
+          <!--eight-->
+          <tr>
+            <td>Patient Name</td>
+            <td colspan="2"><input type="text"placeholder="Enter the patient name" class="hii"></td>
+          </tr>
+          <!--nine-->
+          <tr>
+            <td>Phone Number</td>
+            <td colspan="2"><input type="tel"placeholder="Enter the Phone Number" class="hii"></td>
+          </tr>
+          <!--ten-->
+          <tr>
+            <td>Email ID</td>
+            <td colspan="2" ><input type="email"placeholder="Enter the email id"class="hii"></td>
+          </tr>
+          <!--eleven-->
+          <tr>
+            <td>Age</td>
+            <td colspan="2" ><input type="tel"placeholder="Enter the age"class="hii"></td>
+          </tr>
+          <!--tweleve-->
+          <tr>
+            <td>Address</td>
+            <td colspan="2"><textarea name="" id="" cols="45" rows="5" placeholder="Enter the address"></textarea></td>
+          </tr>
+          <!--thirteen-->
+          <tr>
+            <td class="info"colspan="3" id="adds">Payment Information</td>
+          </tr>
+          <!--fouteen-->
+          <tr>
+            <td>Select the payment<br> type : </td>
+            <td>
+                <input type="radio"id="fr" name="see">
+                <label for="fr">Card</label>
+            </td>
+            <td><input type="radio"id="fs" name="see">
+                <label for="fs">Cash</label></td>
+          </tr>
+          <!--fifteen-->
+          <tr>
+            <td>Card Number : </td>
+            <td colspan="2"> <input  class="hii"type="tel" placeholder="Enter card number"></td>
+          </tr>
+          <tr>
+            <td>CVV Number : </td>
+            <td colspan="2"> <input class="hii" type="tel" placeholder="Enter cvv number"></td>
+          </tr>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <button>CONFIRM</button>
+    </form>
+  </body>
+</html>

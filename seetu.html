@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+       padding:20px 20px;
+      
+      }
+     
+      .container p:hover {
+        color: blue;
+      }
+      
+      .seetu {
+        align-content: center;
+        flex-direction: column;
+      }
+      button {
+        background-color: blue;
+        color: white;
+      }
+      .navbar {
+        display: flex;
+        background-color: #2874f0;
+        padding-left: 200px;
+        margin: 0;
+        position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+      }
+      .navbar ul {
+        display: flex;
+        width: 70vw;
+        justify-content: space-between;
+      }
+      .flipkart img {
+        display: block;
+        margin: 0;
+      }
+      .navbar input {
+        width: 500px;
+        height: 30px;
+        margin: 0;
+      }
+      span {
+        color: yellow;
+      }
+      .log {
+        width: 130px;
+        height: 30px;
+        background-color: white;
+        color:#2874f0;
+        font-size: 15px;
+      }
+
+      style img {
+        top: 15px;
+        float: right;
+      }
+
+      li a {
+        text-decoration-line: none;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+      }
+      .box img{
+        width: 80px;
+        height: 80px;
+      }
+      .search{
+        display: inline-block;
+        margin:0; 
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    color: #f0f0f0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+      }
+      .hello{
+  
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    justify-content: flex-start;
+
+    height: 36px;
+    width: 49px;
+    border-radius: 2px;
+    right:580px;
+    position: absolute;
+    background-color:white;
+        color:#2874f0;
+    
+      }
+      .ab{
+        text-decoration-line: none;
+        color: #f0f0f0;
+      }
+    
+       .submit{
+     
+   display:flex;
+   
+       }
+       td{
+      padding:0px 35px;
+       }
+       td a{
+        text-decoration-line: none;
+        color:white;
+       }
+       td p{
+        color:white;
+        font-size: 13px;
+       }
+        thead h4{
+        color:#9da5b4bd;
+        white-space: nowrap;
+       }
+       table{
+        background-color: #172337;
+        padding: 20px;
+        margin: 20px;
+       }
+       td h3{
+        color: white;
+        font-size: 15px;
+        white-space: nowrap;
+        
+       }
+      td i{
+        color:#FFB700;
+       }
+       .butt{
+        width: 130px;
+        height: 30px;
+        background-color:#2874f0;
+        color:white;
+        font-size: 15px;
+       }
+       h4{
+        color:rgb(84, 133, 11)
+       }
+       
+       
+    </style>
+    <script src="https://kit.fontawesome.com/cacb039dfe.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="flipkart">
+        <img src="flipkart.png" alt="" />
+        <div style="display: flex">
+          <a class="ab" href="/plus">
+           &nbsp; Explore <span class="_2FVHGh">Plus</span>
+          </a>
+          <img
+            width="10"
+            height="20"
+            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
+          ></img>
+        </div>
+      </div>
+      <div class="title">
+        <ul type="none">
+          <div class="submit">
+        <div class="search">
+          <li><input  type="search" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more" value=""></li>
+          <button><i style="color:blue" class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <button type="submit" class="hello"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+          <li><button class="log" ><a href="https://www.flipkart.com/" style="color:#2874f0">Login</a></button></li>
+          <li><a href="https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect">Become Seller</a></li>
+          <li><a href="">More</a></li>
+          <li><a href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <img
+          src="https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" 
+          alt=""
+        />
+        <p>Grocery</p>
+      </div>
+      <div class="box">
+        <img
+          src="https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100"
+          alt=""
+        />
+        <p>Mobiles</p>
+      </div>
+      <div class="box">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100"
+          alt=""
+        />
+        <p>Fashion</p>
+      </div>
+      <div class="box">
+        <img
+          src="https://rukminim2.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100"
+          alt=""
+        />
+        <p>Home &Furniture</p>
+      </div>
+      <div class="box">
+        <img
+          src="https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100"
+          alt=""
+        />
+        <p>Electronics</p>
+      </div>
+      <div class="box">
+        <img
+          src="https://rukminim2.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100"
+          alt=""
+        />
+        <p>Appliances</p>
+      </div>
+      <div class="box">
+        <img
+          src="https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100"
+          alt=""
+        />
+        <p>Travel</p>
+      </div>
+      <div class="box">
+        <img
+          src="https://rukminim2.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100"
+          alt=""
+        />
+        <p>Beauty Toys&More</p>
+      </div>
+    </div>
+    <img  src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/c2d8527e77c55b8c.jpg?q=50" alt=""width="1400px"height="200px" style="padding:20px;">
+    <div class="container">
+      <div class="seetu">
+        <h1>
+          Best of<br />
+          electonics
+        </h1>
+        <button  class="butt">VIew All</button>
+      </div>
+      <div class="image">
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/fan/f/p/k/genius-connect-28-1-ceiling-fan-1200-ottomate-original-imagnd9btzkwm8ah.jpeg?q=70"
+          alt=""
+          style="margin-bottom: 50px;"
+        />
+        <h3>Energy Efficent Fans</h3>
+        <h4>From ₹1999</h4>
+        <p>Atomberg,Havells & More</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70"
+          alt=""
+        />
+        <h3>Cameras</h3>
+        <h4>From ₹2999</h4>
+        <p>HP</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/flap/200/200/image/20c224cd52ae7a87.jpg?q=70"
+          alt=""
+        />
+        <h3>Trimers</h3>
+        <h4>From ₹1999</h4>
+        <p>HP</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/ko8xtow0/monitor/t/a/y/d24-20-66aekac1in-lenovo-original-imag2qwzazcdmqtb.jpeg?q=70"
+          alt=""
+        />
+        <h3>Moniters</h3>
+        <h4>From ₹5999</h4>
+        <p>HP & Dell</p>
+      </div>
+    </div>
+    <!--First-->
+    <div class="container">
+      <div class="seetu">
+        <h1>
+          Top <br> Offers
+        </h1>
+        <button  class="butt">VIew All</button>
+      </div>
+      <div class="image">
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/l58iaa80/headphone/k/z/m/nord-buds-ce-oneplus-original-imagfyk4hyvgg6ze.jpeg?q=70"
+          alt=""
+        />
+        <h3>Best Truewireless Headphones</h3>
+        <h4>Grab Now</h4>
+        <p>Boat,Oneplus&More..</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/mobile/q/t/h/galaxy-f54-5g-sm-e546bzshins-samsung-original-imagq79f82pfyzvh.jpeg?q=70"
+          alt=""
+        />
+        <h3>Samsung Galaxy F54 5G</h3>
+        <h4>incl Off alloffers</h4>
+        <p>from₹25999</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/shopsy-bottle/e/v/1/500-iconix-vacuume-flask-cup-set-with-silicon-brush-pink-1-original-imaggwyfjqtnghcy.jpeg?q=70"
+          alt=""
+        />
+        <h3>Flask</h3>
+        <h4>From ₹399</h4>
+        <p>Cello & More</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/mobile/p/o/z/-original-imagmmmhjsjru7c2.jpeg?q=70"
+          alt=""
+        />
+        <h3>Moto E13</h3>
+        <h4>From ₹7499</h4>
+        <p>5000 mAh Battery</p>
+      </div>
+      <!--second-->
+    </div>
+    <div class="container">
+      <div class="seetu">
+        <h1>
+          Top Deals On<br />
+          Fashion
+        </h1>
+        <button  class="butt">VIew All</button>
+      </div>
+      <div class="image">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/200/200/image/324eee4e5f645574.jpg?q=70"
+          alt=""
+        />
+        <h3>Sparx,Bata &More</h3>
+        <h4>From ₹149</h4>
+        <p>Trending Now!</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/shoe/f/s/s/-original-imagkhvzgsgpn5wt.jpeg?q=70"
+          alt=""
+        />
+        <h3>Rebook,HRx & More</h3>
+        <h4>Min. 60% Off</h4>
+        <p>Mens shoes & Snekers</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/jp2xoy80/watch/c/j/8/38042pp04-fastrack-original-imafbet3f2y54u6s.jpeg?q=70"
+          alt=""
+        />
+        <h3>Fast Track,Timex,Sonta</h3>
+        <h4>From ₹499</h4>
+        <p>Rush To Grab Best Offers!</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/flap/200/200/image/238a2fdac5350dcc.jpg?q=70"
+          alt=""
+        />
+        <h3>Kids' Combo Sets</h3>
+        <h4>Min. 70% Off</h4>
+        <p>Miss & Chief,Billion...</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="seetu">
+        <h1>
+          Best Fashion<br />
+          Brands For You!
+        </h1>
+        <button  class="butt">VIew All</button>
+      </div>
+      <div class="image">
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/shoe/c/e/l/-original-imaggz85pr3scprs.jpeg?q=70"
+          alt=""
+        />
+        <h3>Killer,Ducati,Provogue..</h3>
+        <h4>60-90% Off</h4>
+        <p>Men's shoes ,Sandels More..</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/l52sivk0/watch/u/s/b/1-sk-pg-4030-blu-slvr-basic-analog-watch-for-men-with-day-and-original-imagfu46vxygfyhq.jpeg?q=70"
+          alt=""
+        />
+        <h3>Casio,Fpssil,Titan...</h3>
+        <h4>20-70% Off</h4>
+        <p>Selling Fast! Grab Now</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/kurta/i/j/1/l-up-dupi-lemonx-original-imagatygjuqxy532-bb.jpeg?q=70"
+          alt=""
+        />
+        <h3>Festive Kurtas,Ethic Sets</h3>
+        <h4>60-80% Off</h4>
+        <p>Best Selling Styles</p>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/l3uhvgw0/short/n/d/f/m-adss22sh0003b-adrenex-original-imagevzxta6rwfjz.jpeg?q=70"
+          alt=""
+        />
+        <h3>Wildcraft,Fila,New Balance</h3>
+        <h4>60-80% Off</h4>
+        <p>Trackpants,shorts</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="seetu">
+        <h1>
+         Independence <br>
+         Day Sales
+        </h1>
+        <button class="butt">VIew All</button>
+      </div>
+      <div class="image">
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/watch/z/1/h/-original-imagqhvgybexgkmh.jpeg?q=70"
+          alt=""
+        />
+        <h3>Wrist Watches</h3>
+        <h4>Min. 90% Off</h4>
+       
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/shoe/p/y/0/-original-imagg5rfsacakzqz.jpeg?q=70"
+          alt=""
+        />
+        <h3>Sports Shoes</h3>
+        <h4>Min. 70% Off</h4>
+      
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/l51d30w0/shoe/z/w/c/10-mrj1914-10-aadi-white-black-red-original-imagft9k9hydnfjp.jpeg?q=70"
+          alt=""
+        />
+        <h3>Casual Shoes</h3>
+        <h4>Min 60% Off</h4>
+        
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/200/200/xif0q/t-shirt/3/d/i/l-jc22-hd-fs-black-jmc-pckt-jump-cuts-original-imagg3yxfk48y7nt.jpeg?q=70"
+          alt=""
+        />
+        <h3>Mens T-shirts</h3>
+        <h4>Min 50% Off</h4>
+        
+      </div>
+      
+    </div>
+    <hr>
+    <div class="body">
+    <div>
+      <p>Top Stories:<b> Brand Directory</b></p>
+      <p>MOST SEARCHED FOR ON FLIPKART:One Pieces|Fashion EOSS Sale |Trend Stop |Flipkart Axis Bank Super Elite Credit card |5G Mobile Phones |Primebook Laptops|Moto Edge 40 |Bounce Infinity E1|Buy Laptop on EMI|Infinix Zero Book Ultra |OPPO Reno8 5G |OPPO Reno8 Pro 5G|Fresh Flower Bouquet|Electric Cycles|Badminton|iphone 14|Bouquet|Laptop Repair Services|AC Cleaning Services |Oneplus Monitors |Grievance Redressal |Mobile Repair Services |Sell Old Mobile Phones |Premium Laptops |Electronics Store |Phone cover |Infinix INBook Y1 Plus |Okaya Electric Vehicles |bgauss electric scooter |OPPO Reno7 Pro 5G |iPhone 13 | iPhone 13 Pro | iPhone 13 Pro Max |iPhone 13 Mini |Google Pixel 6a covers |Flipkart Quick |Ampere Magnus |Flipkart Help Centre |Online Boat Store |Covers from Rs 99 |Flipkart Track Orders |Flipkart Manage Orders |Flipkart Return Orders |Flipkart Gift Cards | StoreFlipkart |Axis Bank Credit Card |Flipkart Pay Later</p>
+    <p>MOBILES:iPhone 12 64GB|iPhone 12 Pro 512GB|iPhone 12 128GB|Vivo Y91i |Vivo Y11Vivo Y15 |SAMSUNG Galaxy S21| FE 5GInfinix HOT 30i |Realme 10 Pro 5G |MOTOROLA G32 |MOTOROLA G62 5G |Nothing Phone |REDMI Note 12 Pro  |5GInfinix SMART 7 |Vivo Y50 |Vivo Y12Reno2 F |Oppo A12 |Nothing Phone 5g |Google Pixel 5g Phone |Motorola 5g Phone |Realme 5g Smartphone |Apple 5g Phone|Iqoo 5g Phones|Oneplus 5g Phones|Vivo 5g Phones|Oppo 5g |Smart Phones |Oppo F15|Oppo A31|Samsung A71|Samsung A51 |Samsung A31Realme X2 |iPhone 11 |iPhone 11 ProMobile  |CoverMobile Offersiphone x4G  |MobileNokia | MobileSamsung | MobileiphoneOppo | MobileVivo Mobile
+      <p>CAMERA:GoPro Action| CameraNikon | CameraCanon |CameraSony | Camera |Canon DSLR |Nikon DSLR</p>
+     <p>LAPTOPS:Asus ROG AllyMacBook Pro M2Premium  |LaptopASUS ROG Strix SCAR 16 (2023) Core i9 13th GenASUS ROG Zephyrus M16 (2023) | Core i9 13th GenASUS Zenbook 14 OLED (2022) |Realme Book Prime Core i5 11th GenMicrosoft Surface Go Pentium 128GBBranded | LaptopsApple | LaptopsAcer | LaptopsLenovo | LaptopsDell  |LaptopsAsus | LaptopsHP | LaptopsGaming | Laptops2 in 1 LaptopsLaptopsDell | latest laptops 2022HP | latest laptops 2022Infinix  |INBook Y1 PlusSAMSUNG Galaxy | Book312th Gen Intel Core Laptops</p>
+    <p>FOOTWEAR:ShoesAdidas| ShoesReebok |ShoesNike |ShoesPuma | ShoesBootsBata |ShoesWoodland  |ShoesSkechers |ShoesSneakersWomens  |BootsSports | ShoesLoafersSandalsLotto  |Sports ShoesCasual  |ShoesWomens  |Skechers ShoesAsics | Sports ShoesFormal | ShoesSchool Shoes</p>
+     <p> GROCERIES:PhonePe Grocery| VoucherHand| WashSoapCashew |NutsSunflower| OilEggsToilet| CleanerHarpic| Toilet CleanerDettol | SoapMustard | OilBiscuitsCheesePatanjali | AttaFortune Oil |Aashirvaad Atta |Tea</p></div>
+    <div>
+      <p><b>Flipkart: The One-stop Shopping Destination</b></p>
+       <p> E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+       <p>What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.</p>
+    </div>
+    <div>
+      <p><b>Flipkart Plus</b></p>
+      <p>A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more!
+      </p>
+      <p>What's more, you can even use the Flipkart supercoins for a number of exciting services, like:<br>
+      An annual Zomato Gold membership<br>
+      An annual Hotstar Premium membership<br>
+      6 months Gaana plus subscription</br>
+       Rupees 550 instant discount on flights on ixigo<br>
+        Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.</p>
+    </div>
+    <div>
+      <p><b>Home and Furniture</b></p>
+      <p>Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets, dining tables, wardrobes, and TV units - it's not easy to set up everything again. With the hundreds of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture will stand the test of time? These are questions you must ask before you choose a store. Well, our Durability Certified Furniture Store has not only curated a range of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load tests so that you receive only the best-quality furniture. Be FurniSure, always. Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect Homes.
+
+      </p><p> You may have your furniture all set up, but they could end up looking flat and incomplete without complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps - find everything that turns a house to an inviting home under one roof at Flipkart.
+        </p>
+    </div>
+    <div>
+      <p><b>Baby and Kids</b></p>
+      <p>Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.
+      </p>
+    </div>
+    <div>
+      <p><b>Books, Sports and Games</b></p>
+      <p>Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.
+      </p>
+    </div>
+    <div>
+      <p><b>Grocery/Supermart</b></p>
+      <p>Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only - our 1 Rupee Store presents new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.
+  </p>
+    </div>
+  </div>
+  <hr>
+  <div>
+    <footer>
+      <table>
+        <tbody>
+      
+          <thead>
+            
+            <td>
+              <h4>ABOUT</h4>
+            </td>
+            <td>
+              <h4>HOME</h4> 
+            </td>
+            <td>
+              <h4>CONSUMER POLICY</h4>
+            </td>
+
+            <td>
+              <h4>SOCIAL</h4>
+            </td>
+            <td>
+             <h4> Mail us</h4>
+            </td>
+            <td><h4>Registered Office Address:</h4></td>
+          </thead>
+          <tr>
+            <td><a href="">Contact Us</a></td>
+            <td><a href="">Payments</a></td>
+            <td><a href="">Cancellation & Returns</a></td>
+            <td><a href="">FaceBook</a></td>
+            <td><p>Flipkart Internet Private Limited,</p></td>
+            <td><p>Flipkart Internet Private Limited,</p></td>
+          </tr>
+          <tr>
+            <td><a href="">About Us</a></td>
+            <td><a href="">Shipping</a><br></td>
+            <td><a href="">Terms Of Use</a></td>
+            <td><a href="">You Tube</a></td>
+            <td><p>Buildings Alyssa, Begonia &
+              </p></td>
+              <td><p>Buildings Alyssa, Begonia &</p></td>
+          </tr>
+          <tr>
+            <td><a href="">Careers</a></td>
+            <td><a href="">Shipping</a></td>
+            <td><a href="">Security</a></td>
+            <td><a href="">Twitter</a></td>
+            <td><p>
+              
+              Clove Embassy Tech Village,
+          </p></td>
+          <td><p>Clove Embassy Tech Village,</p></td>
+          </tr>
+          <tr>
+            <td><a href="">Flipkart Stories</a></td>
+            <td><a href="">Cancellation & Returns</a></td>
+            <td><a href="">Privacy</a></td>
+            <td></td>
+            <td><p> Outer Ring Road, Devarabeesanahalli Village,</p></td>
+            <td><p>Outer Ring Road, Devarabeesanahalli Village,</p></td>
+          </tr>
+          <tr>
+            <td><a href="">Press</a></td>
+          <td><a href="">FAQ</a></td>
+          <td><a href="">Sitemap</a></td>
+      
+          <td></td>
+          <td><p> 
+              
+            Bengaluru, 560103,
+            
+           </p></td>
+           <td><p>Bengaluru, 560103,</p></td>
+        </tr>
+        <tr>
+        <td><a href="">Flipkart Wholesale</a></td>
+        <td><a href="">Report Infringement</a></td>
+        <td><a href="">Grievance Redressal</a></td>
+      
+        <td></td>
+        <td><p> 
+          
+          Karnataka, India.</p></td>
+          <td><p>Karnataka, India</p></td>
+      </tr>
+      <tr>
+        <td><a href="">Corporate Information</a></td>
+        <td></td>
+        <td><a href="">EPR Compliance</a></td>
+       
+        <td></td>
+        <td></td>
+        <td><p>CIN : U51109KA2012PTC066107<br>
+
+          Telephone: 044-45614700</p></td>
+        </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        
+        <td><h3><i class="fa-solid fa-bag-shopping"></i>Become a Seller</h3></td>
+        <td><h3><i class="fa-solid fa-star"></i>Advertise</h3></td>
+        <td><h3><i class="fa-solid fa-gift"></i>Gift Cards</h3></td>
+        <td><h3><i class="fa-solid fa-circle-question"></i>Help Center</h3></td>
+        <td><h3>© 2007-2023 Flipkart.com</h3></td>
+        <td><img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg" alt="" width="300px" height="100px"></td>
+      </tr>
+      
+      
+       </tbody>
+      
+      </table>
+      <div>
+      
+
+
+
+
+       
+      </div>
+
+    </footer>
+  </div>
+
+</html>

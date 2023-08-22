@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Platinum Properties</title>
+    <style>
+      * {
+        /* padding: 0;
+        margin: 0; */
+        box-sizing: border-box;
+      }
+      .container {
+        border: 2px solid #000;
+        padding: 0;
+        display: flex;
+      }
+
+      .img-container {
+        height: 540px;
+        display: inline-block;
+        content: inherit;
+      }
+
+      .hk {
+        height: 100%;
+      }
+      /* .hk {
+        height: 520px;
+        padding-top: 20px;
+      } */
+    </style>
+    <link rel="stylesheet" href="./two.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <img class="hk" src="seetu.png" alt="hotel" />
+      </div>
+
+      <form class="see" action="">
+        <h1>Platinum Properties</h1>
+        <table>
+          <tbody>
+            <!--first rwo-->
+            <tr>
+              <td>
+                <a class="fd" href="#Property Information">Property-info</a>
+              </td>
+              <td>
+                <a class="fd" href="#Personal Information">Personal-info</a>
+              </td>
+              <td><a class="fd" href="#Extra Features">Extra Features</a></td>
+            </tr>
+            <!--senod row-->
+            <tr>
+              <td class="house" colspan="3" id="Property Information">
+                Property Information
+              </td>
+            </tr>
+            <!--third-->
+            <tr>
+              <td>
+                <label for="see">Select Property Type : </label>
+                <br />
+                <select name="house" id="see">
+                  <option value="select">select..</option>
+                  <option value="Apartment">Apartment</option>
+                  <option value="Independent House">Independent House</option>
+                  <option value="Vila">Vila</option>
+                  <option value="Compact Home">Compact Home</option>
+                </select>
+              </td>
+              <td>
+                <label for="seetu">BHK Type : </label>
+                <br />
+                <select class="jk" name="" id="seetu">
+                  <option value="Select">Select..</option>
+                  <option value="1BHK">1BHK</option>
+                  <option value="2BHK">2BHK</option>
+                  <option value="3BHK">3BHK</option>
+                  <option value="4BHK">4BHK</option>
+                </select>
+              </td>
+              <td>
+                <label for="de"> select the possession status : </label>
+                <br />
+                <select class="ch" name="" id="de">
+                  <option value="Select">Select..</option>
+                  <option value="Plot">Plot</option>
+                  <option value="Under Construction">Under Construction</option>
+                  <option value="Semi Furnished">Semi Furnished</option>
+                  <option value="Ready To Move">Ready To Move</option>
+                </select>
+              </td>
+              <!--four-->
+            </tr>
+            <tr>
+              <td>Price Range :</td>
+              <td>
+                <input type="number" name="number" placeholder="From" />
+              </td>
+              <td>
+                <input type="number" name="number" placeholder="To" />
+              </td>
+            </tr>
+            <!--five-->
+            <tr>
+              <td>Location</td>
+              <td colspan="2">
+                <input
+                  class="hello"
+                  type="text"
+                  placeholder="Enter the Location"
+                />
+              </td>
+            </tr>
+            <!--sixth-->
+            <tr>
+              <td colspan="3" class="house" id="Personal Information">
+                Personal Information
+              </td>
+            </tr>
+            <!--seven-->
+            <tr>
+              <td>Customer Name</td>
+              <td colspan="2">
+                <input
+                  class="hello"
+                  type="text"
+                  placeholder="Enter the customer name"
+                />
+              </td>
+            </tr>
+            <!--eight-->
+            <tr>
+              <td>Phone Number</td>
+              <td colspan="2">
+                <input
+                  class="hello"
+                  type="tel"
+                  placeholder="Enter the phone number"
+                />
+              </td>
+            </tr>
+            <!---nine-->
+            <tr>
+              <td>Email ID</td>
+              <td colspan="2">
+                <input
+                  class="hello"
+                  type="email"
+                  placeholder="Enter the email id"
+                />
+              </td>
+            </tr>
+            <!--ten-->
+            <tr>
+              <td colspan="3" class="house" id="Extra Features">
+                Extra Features
+              </td>
+            </tr>
+            <!--eleven-->
+            <tr>
+              <td>
+                <input type="checkbox" id="features" />
+                <label for="features">Parking</label>
+              </td>
+              <td>
+                <input type="checkbox" id="feature" />
+                <label for="feature">Swimming Pool</label>
+              </td>
+              <td>
+                <input type="checkbox" id="featur" />
+                <label for="featur">Super Market</label>
+              </td>
+            </tr>
+            <!---twlev-->
+            <tr>
+              <td>
+                <input type="checkbox" id="featu" />
+                <label for="featu">Park</label>
+              </td>
+              <td>
+                <input type="checkbox" id="feat" />
+                <label for="feat">Library</label>
+              </td>
+              <td>
+                <input type="checkbox" id="fea" />
+                <label for="fea">Play Ground</label>
+              </td>
+            </tr>
+            <!--thirteen-->
+            <tr>
+              <td colspan="3">**click here to unlock exclusive offers</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <button>CHECK AVILABILITY</button>
+      </form>
+    </div>
+  </body>
+</html>

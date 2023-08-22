@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .left {
+        display: flex;
+        width: 650px;
+        height: 550px;
+        margin: 20px 350px;
+        border: 1px solid white;
+        background-color: #f1f3f6;
+      }
+      .head {
+        background-color: #2874f0;
+        padding: 30px;
+        width: 300px;
+        height: 550px;
+      }
+      img {
+        margin-top: 220px;
+      }
+      p {
+        margin-top: 30px;
+        font-size: 20px;
+        color: #646161;
+      }
+      h1 {
+        color: white;
+      }
+      input {
+        width: 300px;
+        height: 30px;
+        margin-top: 40px;
+        border: none;
+        border-bottom: 1px solid #2874f0;
+      }
+      .right {
+        text-align: center;
+        background-color: white;
+      }
+      .right p {
+        color: #3c3c3c;
+        font-size: 13px;
+      }
+      a {
+        margin-top: 15px;
+        text-decoration-line: none;
+        color: #2874f0;
+      }
+      button {
+        width: 340px;
+        height: 50px;
+        margin-top: 30px;
+        background-color: #fb641b;
+        color: white;
+        border: none;
+      }
+      .bottom {
+        margin-top: 310px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left">
+      <div class="head">
+        <h1>Login</h1>
+        <p>
+          Get access to your<br />
+          Orders, Wishlist and Recommendations
+        </p>
+        <img src="logo.png" alt="" width="250px" />
+      </div>
+      <div class="right">
+        <form action="">
+          <input placeholder="Enter Email/Mobile number" type="text" />
+          <p>
+            By continuing, you agree to Flipkart's
+            <a href="">Terms of Use</a> and
+            <a href="">Privacy Policy.</a>
+          </p>
+          <button class="RequestOtp">Request OTP</button>
+          <div class="bottom">
+            <a href="">New to Flipkart? Create an account</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

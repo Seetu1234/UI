@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="para"></p>
+
+    <script>
+      var a = document.getElementById("para");
+      var a = setInterval(fun, 100);
+      var count = 0;
+      function fun() {
+        a.innerHTML = count.value + 1;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+td {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  color: #7309d6;
+  font-size: 20px;
+}
+body {
+  margin: 0 200px;
+}
+.info {
+  color: red;
+}
+table {
+  border: 3px solid white;
+  padding: 5px;
+  border-radius: 3px;
+}
+h1 {
+  color: red;
+  border: 1px solid white;
+  background-color: #ffff;
+  text-align: center;
+}
+.hii {
+  padding-right: 180px;
+}
+button {
+  color: red;
+  background-color: white;
+  padding: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+button:hover {
+  background-color: red;
+  color: #fff;
+}
+.me {
+  padding-right: 70px;
+}
+.mes {
+  text-decoration-line: underline;
+}
+form {
+  background-color: #7309d6;
+  padding: 15px;
+}
+form {
+  display: inline-block;
+  margin-bottom: 30px;
+}

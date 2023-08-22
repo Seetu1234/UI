@@ -1,0 +1,17 @@
+.packers_movers_form {
+  background-color: #548ea3;
+  color: #fff;
+}
+
+td {
+  border: 1px solid #fff;
+}
+
+table {
+  padding: 5px;
+  border: 2px solid #fff;
+}
+
+.category {
+  color: #b41818;
+}

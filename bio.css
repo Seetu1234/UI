@@ -1,0 +1,69 @@
+td {
+  background-color: black;
+  border: 3px solid #c77d5f;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+div {
+  background-color: black;
+  padding: 10px;
+}
+h1 {
+  background-color: #2f4f4f;
+  color: white;
+  border-radius: 5px;
+}
+form {
+  background-color: black;
+}
+.part {
+  color: aqua;
+  text-decoration-line: underline;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 3px;
+  margin-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+button:hover {
+  background-color: red;
+  color: white;
+}
+input::placeholder {
+  color: #3943b7;
+}
+form {
+  padding: 20px;
+}
+body {
+  margin: 50px 450px;
+  display: inline-block;
+}
+.de {
+  color: #3943b7;
+  padding-right: 154px;
+}
+textarea::placeholder {
+  color: #3943b7;
+}
+.approve {
+  padding-right: 100px;
+}
+
+.name {
+  padding-right: 100px;
+}
+table {
+  padding: 5px 30px;
+}
+tr {
+  padding: 5px;
+}
+.none {
+  background-color: black;
+  border: 3px solid #c77d5f;
+}

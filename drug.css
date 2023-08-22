@@ -1,0 +1,57 @@
+td {
+  background-color: #8b8b8b;
+  color: black;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+form {
+  background-color: #8b8b8b;
+  padding: 20px;
+  display: inline-block;
+}
+h1 {
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  text-indent: 25px;
+}
+body {
+  margin: 50px 300px;
+}
+table {
+  border: 3px solid black;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.bag {
+  padding-right: 550px;
+  background-color: #8b8b8b;
+}
+.ba {
+  width: 710px;
+  background-color: #8b8b8b;
+}
+.b {
+  width: 350px;
+  background-color: #8b8b8b;
+}
+input::placeholder {
+  color: white;
+}
+button {
+  background-color: #8b8b8b;
+  color: white;
+  padding: 3px;
+  margin-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+button:hover {
+  background-color: red;
+  color: black;
+}
+div {
+  color: blue;
+  text-decoration-line: underline;
+}
